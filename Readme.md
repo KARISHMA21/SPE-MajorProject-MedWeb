@@ -1,7 +1,7 @@
 SPE MAJOR PROJECT - MedWeb
 
 Below are the links for the project repositories -- 
-## HOSPITAL :
+## HOSPITAL-WebAPP :
 * Back-end service	&ensp;: https://github.com/KARISHMA21/SPE-HISApp-SERVICE
 * Front-end		&emsp;&emsp;&emsp;&ensp;: https://github.com/KARISHMA21/SPE-HISApp-FRONTEND
 	
@@ -9,7 +9,7 @@ Below are the links for the project repositories --
 * ADMIN service: https://github.com/KARISHMA21/SPE-Admin-SERVICE
 * CMS service: https://github.com/KARISHMA21/SPE-CMS-SERVICE
 
-## PATIENT-APP :
+## PATIENT-WebAPP :
 * Back-end services	&ensp;&emsp;&emsp;: https://github.com/KARISHMA21/SPE-PatientApp-SERVICE
 * Patient-App Front-end	&nbsp;: https://github.com/KARISHMA21/SPE-PatientApp-FRONTEND
 
