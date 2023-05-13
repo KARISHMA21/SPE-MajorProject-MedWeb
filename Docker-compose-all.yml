@@ -90,7 +90,7 @@ services:
 #  #   command: 'dockerize -wait=tcp://patientdb:3308'
 #
   patient-service:
-    image: patient-service
+    image: karishma056/patient-service
     # command:
     ports:
       - "8081:8081"
@@ -102,10 +102,10 @@ services:
     restart: on-failure:1
 
   his-service:
-    image: his-service
+    image: karishma056/his-service
     # command:
     ports:
-      - "8080:8080"
+      - "8085:8085"
     depends_on:
       hisdb:
         condition: service_healthy
@@ -129,7 +129,7 @@ services:
 #    command: 'dockerize -wait=tcp://cmsdb:3308'
 #
   admin-service:
-    image: admin-service
+    image: karishma056/admin-service
     # command:
     ports:
       - "8082:8082"
@@ -142,7 +142,7 @@ services:
 
 
   cms-service:
-    image: cms-service
+    image: karishma056/cms-service
     # command:
     ports:
       - "8084:8084"
@@ -158,7 +158,7 @@ services:
 
 
   patientapp:
-    image: patientapp
+    image: karishma056/patient-app
     ports:
       - "3081:3000"
     depends_on:
@@ -168,9 +168,9 @@ services:
 
 
   hisaapp:
-    image: hisaapp
+    image: karishma056/his-app
     ports:
-      - "3080:3000"
+      - "3085:3000"
     depends_on:
       - his-service
     networks:
