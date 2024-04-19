@@ -1,4 +1,4 @@
-SPE MAJOR PROJECT - MedWeb
+MedWeb - Bringing your healthcare information at your finger-tips
 
 Below are the links for the project repositories -- 
 ## HOSPITAL-WebAPP :
@@ -15,6 +15,7 @@ Below are the links for the project repositories --
 
 
 ### OUR TEAM:
-* PRARTHANA	- MT2022077 
 * KARISHMA	- MT2022056
+* PRARTHANA	- MT2022077 
+
 
